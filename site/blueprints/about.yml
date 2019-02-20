@@ -1,0 +1,46 @@
+title: About
+
+pages: false
+
+options: 
+  template: false  
+  status: false
+  
+fields:
+  title:
+    label: Title
+    type: title
+    
+  text:
+    label: Text
+    type: textarea
+
+  email:
+    label: E-mail
+    type: email
+    width: 1/2
+
+  curriculum:
+    label: LinkedIn
+    type: url
+    width: 1/2
+
+  links:
+    width: 1/2
+    label: Links
+    type: structure
+    entry: >
+      {{title}}<br />
+      {{url}}
+    fields:
+      title:
+        label: Title
+        type: text
+      url:
+        label: URL
+        type: url
+
+  image:
+    label: Image
+    type: image
+    width: 1/2

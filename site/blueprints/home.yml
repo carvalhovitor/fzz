@@ -1,0 +1,10 @@
+title: Home
+
+files: false
+
+pages:
+  template: project
+
+options: 
+  template: false  
+  status: false

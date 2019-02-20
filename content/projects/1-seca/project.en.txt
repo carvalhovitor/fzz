@@ -1,0 +1,25 @@
+Title: Seca (2017)
+
+----
+
+Text: 
+
+Illustration for Seca magazine's essay _Os Beijos da Seca_ (Drought's Kisses).
+
+Check it out (link: http://revistaseca.com/especiais/os-beijos-da-seca/ text: here).
+
+----
+
+Categories: illustration
+
+----
+
+Bgcolor: #ffd4c3
+
+----
+
+Textcolor: #000000
+
+----
+
+Url-key: seca

@@ -1,0 +1,5 @@
+Title: Erro
+
+----
+
+Text: A página não foi encontrada.
