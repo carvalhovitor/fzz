@@ -36,3 +36,11 @@ fields:
   text:
     label: Text
     type:  textarea
+
+  movies:
+    label: YouTube Videos
+    type: structure
+    fields:
+      url:
+        label: YouTube URL
+        type: url

@@ -16,9 +16,20 @@
         </div>
 
         <section class="project-images">
+
             <?php foreach($page->images()->sortBy('sort', 'asc')->offset(1) as $image): ?>
                 <img src="<?= $image->url(); ?>">
             <?php endforeach ?>
+
+            <?php $videos = $page->movies()->toStructure();
+
+            foreach ($videos as $video): ?>
+                <div class="video-wrapper">
+                    <?= youtube($video->url()) ?>
+                </div>
+            
+            <?php endforeach ?>
+
         </section>
 
     </div>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
     <title><?= $site->title()->html() ?> – <?= $page->title()->html() ?></title>
     <meta name="description" content="<?= site()->description() ?>">
-    <?php echo krb('assets/css/index.css', 'css', 1.0, true, false, false); ?>
+    <?php echo krb('assets/css/index.css', 'css', 1.1, false, false, false); ?>
     <?php echo krb('assets/css/normalize.css', 'css', 1.0, true, false, false); ?>
     <link rel="shortcut icon" type="image/png" href="assets/favicon/fzz-favicon.png">
 
